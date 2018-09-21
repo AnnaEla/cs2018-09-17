@@ -30,5 +30,15 @@ package by.it.medvedeva.lesson02;
 
 */
 class TaskC3 {
+static double getWeight(int m){
+    double res=m*3.86/9/81;
+    int r100=(int)(res*100);
+    double delta=res*100-r100;
+    if (delta>0.5)
+        re
+        else
 
+
+
+}
 }

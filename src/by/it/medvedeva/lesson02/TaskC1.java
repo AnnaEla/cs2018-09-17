@@ -16,9 +16,7 @@ class TaskC1 {
     public static void main(String[] args) {
         Scanner sc1 = new Scanner(System.in);
         int i = sc1.nextInt(34);
-        Scanner sc2 = new Scanner(System.in);
-        int k = sc2.nextInt(26);
-        System.out.println("Вывод");
+        int k = sc1.nextInt(26);
         System.out.println("Sum"+" "+"="+" "+i+"+"+k);
     }
 
