@@ -26,7 +26,7 @@ class TaskA2 {
         String b = "Веселей дорога";
         String c = "Без друзей меня чуть-чуть";
         String d = "А с друзьями много";
-System.out.println("Мое любимое стихотворение");
+System.out.println("Мое любимое стихотворение:");
         System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
 
     }

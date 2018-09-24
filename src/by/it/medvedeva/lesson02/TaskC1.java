@@ -14,14 +14,9 @@ Sum = 60
 */
 class TaskC1 {
     public static void main(String[] args) {
-        Scanner sc1 = new Scanner(System.in);
-        int i = sc1.nextInt(34);
-        int k = sc1.nextInt(26);
-        System.out.println("Sum"+" "+"="+" "+i+"+"+k);
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int k = sc.nextInt();
+        System.out.println("Sum ="+(i+k));
     }
-
-
-
-
-
 }
