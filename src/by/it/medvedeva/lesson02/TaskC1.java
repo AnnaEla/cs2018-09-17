@@ -15,8 +15,8 @@ Sum = 60
 class TaskC1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        int k = sc.nextInt();
-        System.out.println("Sum ="+(i+k));
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Sum = "+(a+b));
     }
 }
