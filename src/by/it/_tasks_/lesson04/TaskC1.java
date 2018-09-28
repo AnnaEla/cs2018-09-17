@@ -1,5 +1,7 @@
 package by.it._tasks_.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,70 @@ package by.it._tasks_.lesson04;
 
 */
 public class TaskC1 {
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner sc = new Scanner(System.in);
+        int zzz = sc.nextInt();
+        if (zzz > 3000 || zzz < 300)
+            System.out.println("Мы вам перезвоним!");
+        else {
+
+            for (int month = 0; month <= 14; month++) {
+                double pay = 1.5 * zzz;
+                if (month < 1 || month > 12) pay = 0;
+                if (month >= 6 && month <= 8) pay = zzz;
+                String strMonth = "месяц" + month;
+                {
 
 
+                    switch (month) {
+                        case 1:
+                            strMonth = "Январь";
+                            break;
+                        case 2:
+                            strMonth = "Февраль";
+                            break;
+                        case 3:
+                            strMonth = "Март";
+                            break;
+                        case 4:
+                            strMonth = "Апрель";
+                            break;
+                        case 5:
+                            strMonth = "Май";
+                            break;
+                        case 6:
+                            strMonth = "Июнь";
+                            break;
+                        case 7:
+                            strMonth = "Июль";
+                            break;
+                        case 8:
+                            strMonth = "Август";
+                            break;
+                        case 9:
+                            strMonth = "Сентябрь";
+                            break;
+                        case 10:
+                            strMonth = "Октябрь";
+                            break;
+                        case 11:
+                            strMonth = "Ноябрь";
+                            break;
+                        case 12:
+                            strMonth = "Декабрь";
+                            break;
+                    }
+
+
+                    System.out.println("За " + strMonth + " начислено $" + pay);
+                    if (pay == 666) break;
+                }
+
+            }
+
+        }
+
+
+    }
 }

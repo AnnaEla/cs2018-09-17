@@ -10,6 +10,11 @@ package by.it.medvedeva.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    ArrayList<String> arrayList= new ArrayList<>();
+    int[]array=new int[5];
+
 
 }
