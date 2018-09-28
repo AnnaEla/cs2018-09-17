@@ -13,8 +13,19 @@ package by.it.medvedeva.lesson05;
 import java.util.ArrayList;
 
 public class TaskB1 {
-    ArrayList<String> arrayList= new ArrayList<>();
-    int[]array=new int[5];
+    public static void main(String[] args) {
+        ArrayList a1=new ArrayList();
+        a1.add("line1");
+        a1.add("line2");
+        a1.add("line3");
+        a1.add("line4");
+        a1.add("line5");
+        System.out.println(a1.size());
+        for(int i=0; i<a1.size();i++){
+            System.out.println(a1.get(i));
+        }
 
+
+    }
 
 }

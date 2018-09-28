@@ -37,7 +37,7 @@ public class TaskB2 {
                 System.out.print(num + " ");
                 j++;
             }
-            System.out.println("");
+            System.out.println(" ");
             i++;
 
         }

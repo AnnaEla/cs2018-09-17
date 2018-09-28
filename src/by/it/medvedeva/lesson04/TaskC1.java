@@ -54,40 +54,40 @@ public class TaskC1 {
                 String strMonth = "месяц " + month;
                     switch (month) {
                         case 1:
-                            strMonth = "Январь";
+                            strMonth = "январь";
                             break;
                         case 2:
-                            strMonth = "Февраль";
+                            strMonth = "февраль";
                             break;
                         case 3:
-                            strMonth = "Март";
+                            strMonth = "март";
                             break;
                         case 4:
-                            strMonth = "Апрель";
+                            strMonth = "апрель";
                             break;
                         case 5:
-                            strMonth = "Май";
+                            strMonth = "май";
                             break;
                         case 6:
-                            strMonth = "Июнь";
+                            strMonth = "июнь";
                             break;
                         case 7:
-                            strMonth = "Июль";
+                            strMonth = "июль";
                             break;
                         case 8:
-                            strMonth = "Август";
+                            strMonth = "август";
                             break;
                         case 9:
-                            strMonth = "Сентябрь";
+                            strMonth = "сентябрь";
                             break;
                         case 10:
-                            strMonth = "Октябрь";
+                            strMonth = "октябрь";
                             break;
                         case 11:
-                            strMonth = "Ноябрь";
+                            strMonth = "ноябрь";
                             break;
                         case 12:
-                            strMonth = "Декабрь";
+                            strMonth = "декабрь";
                             break;
                     }
 
